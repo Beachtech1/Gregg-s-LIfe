@@ -32,6 +32,15 @@ event.shaped('waterstrainer:strainer_base', [
 	 F: 'minecraft:oak_fence',
 	})
 
+event.remove({id: 'ftbquests:book'})
+event.shaped('ftbquests:book', [
+   	 'D  ',
+   	 '   ',
+    	 '   '
+	], {
+   	 D: 'minecraft:dirt',
+	})
+
 event.remove({id: 'minecraft:campfire'})
 event.shaped('minecraft:campfire', [
    	 ' S ',
@@ -52,6 +61,17 @@ event.shaped('create:crushing_wheel', [
    	 A: 'create:andesite_alloy',
    	 M: 'create:mechanical_bearing',
 	})
+event.remove({id: 'mysticalworld:wood_knife'})
+event.remove({id: 'mysticalworld:stone_knife'})
+event.remove({id: 'mysticalworld:iron_knife'})
+event.remove({id: 'mysticalworld:gold_knife'})
+event.remove({id: 'mysticalworld:diamond_knife'})
+event.remove({id: 'mysticalworld:lead_knife'})
+event.remove({id: 'mysticalworld:quicksilver_knife'})
+event.remove({id: 'mysticalworld:silver_knife'})
+event.remove({id: 'mysticalworld:copper_knife'})
+event.remove({id: 'mysticalworld:tin_knife'})
+
 
 event.remove({output: 'minecraft:iron_ingot', type: 'minecraft:smelting'})
 event.remove({output: 'minecraft:gold_ingot', type: 'minecraft:smelting'})
