@@ -1,0 +1,1128 @@
+{
+	id: "0000000000000796",
+	group: "",
+	order_index: 4,
+	filename: "venlla",
+	title: "Create a Museum",
+	icon: {
+		id: "minecraft:enchanted_book",
+		Count: 1b,
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: "minecraft:piercing"
+			}]
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.5d,
+			y: -0.5d,
+			id: "0000000000000797",
+			tasks: [{
+				id: "0000000000000798",
+				type: "item",
+				item: "minecraft:music_disc_13"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -0.5d,
+			id: "0000000000000799",
+			tasks: [{
+				id: "000000000000079A",
+				type: "item",
+				item: "minecraft:music_disc_cat"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -0.5d,
+			id: "000000000000079B",
+			tasks: [{
+				id: "000000000000079C",
+				type: "item",
+				item: "minecraft:music_disc_blocks"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -0.5d,
+			id: "000000000000079D",
+			tasks: [{
+				id: "000000000000079E",
+				type: "item",
+				item: "minecraft:music_disc_chirp"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			id: "000000000000079F",
+			tasks: [{
+				id: "00000000000007A0",
+				type: "item",
+				item: "minecraft:music_disc_far"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.5d,
+			id: "00000000000007A1",
+			tasks: [{
+				id: "00000000000007A2",
+				type: "item",
+				item: "minecraft:music_disc_mall"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.5d,
+			id: "00000000000007A3",
+			tasks: [{
+				id: "00000000000007A4",
+				type: "item",
+				item: "minecraft:music_disc_mellohi"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			id: "00000000000007A5",
+			tasks: [{
+				id: "00000000000007A6",
+				type: "item",
+				item: "minecraft:music_disc_mellohi"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			id: "00000000000007A7",
+			tasks: [{
+				id: "00000000000007A8",
+				type: "item",
+				item: "minecraft:music_disc_stal"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			id: "00000000000007A9",
+			tasks: [{
+				id: "00000000000007AA",
+				type: "item",
+				item: "minecraft:music_disc_strad"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			id: "00000000000007AB",
+			tasks: [{
+				id: "00000000000007AC",
+				type: "item",
+				item: "minecraft:music_disc_ward"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			id: "00000000000007AD",
+			tasks: [{
+				id: "00000000000007AE",
+				type: "item",
+				item: "minecraft:music_disc_11"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			id: "00000000000007AF",
+			tasks: [{
+				id: "00000000000007B0",
+				type: "item",
+				item: "minecraft:music_disc_wait"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.5d,
+			id: "00000000000007B1",
+			tasks: [{
+				id: "00000000000007B2",
+				type: "item",
+				item: "minecraft:music_disc_pigstep"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: -0.5d,
+			id: "00000000000007D3",
+			tasks: [{
+				id: "00000000000007D4",
+				type: "item",
+				item: "aquaculture:atlantic_cod_bucket"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -0.5d,
+			id: "00000000000007D5",
+			tasks: [{
+				id: "00000000000007D6",
+				type: "item",
+				item: "aquaculture:blackfish_bucket"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: -0.5d,
+			id: "00000000000007D7",
+			tasks: [{
+				id: "00000000000007D8",
+				type: "item",
+				item: "aquaculture:pacific_halibut_bucket"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -0.5d,
+			id: "00000000000007D9",
+			tasks: [{
+				id: "00000000000007DA",
+				type: "item",
+				item: "aquaculture:atlantic_halibut_bucket"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 0.5d,
+			id: "00000000000007DB",
+			tasks: [{
+				id: "00000000000007DC",
+				type: "item",
+				item: "aquaculture:atlantic_herring_bucket"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 0.5d,
+			id: "00000000000007DD",
+			tasks: [{
+				id: "00000000000007DE",
+				type: "item",
+				item: "aquaculture:pink_salmon_bucket"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 0.5d,
+			id: "00000000000007DF",
+			tasks: [{
+				id: "00000000000007E0",
+				type: "item",
+				item: "aquaculture:pollock_bucket"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 0.5d,
+			id: "00000000000007E1",
+			tasks: [{
+				id: "00000000000007E2",
+				type: "item",
+				item: "aquaculture:rainbow_trout_bucket"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 1.5d,
+			id: "00000000000007E3",
+			tasks: [{
+				id: "00000000000007E4",
+				type: "item",
+				item: "aquaculture:bayad_bucket"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 1.5d,
+			id: "00000000000007E5",
+			tasks: [{
+				id: "00000000000007E6",
+				type: "item",
+				item: "aquaculture:boulti_bucket"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 1.5d,
+			id: "00000000000007E7",
+			tasks: [{
+				id: "00000000000007E8",
+				type: "item",
+				item: "aquaculture:synodontis_bucket"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 1.5d,
+			id: "00000000000007E9",
+			tasks: [{
+				id: "00000000000007EA",
+				type: "item",
+				item: "aquaculture:smallmouth_bass_bucket"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 2.5d,
+			id: "00000000000007EB",
+			tasks: [{
+				id: "00000000000007EC",
+				type: "item",
+				item: "aquaculture:bluegill_bucket"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 2.5d,
+			id: "00000000000007ED",
+			tasks: [{
+				id: "00000000000007EE",
+				type: "item",
+				item: "aquaculture:brown_trout_bucket"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 2.5d,
+			id: "00000000000007EF",
+			tasks: [{
+				id: "00000000000007F0",
+				type: "item",
+				item: "aquaculture:carp_bucket"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 2.5d,
+			id: "00000000000007F1",
+			tasks: [{
+				id: "00000000000007F2",
+				type: "item",
+				item: "aquaculture:catfish_bucket"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 3.5d,
+			id: "00000000000007F3",
+			tasks: [{
+				id: "00000000000007F4",
+				type: "item",
+				item: "aquaculture:gar_bucket"
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 3.5d,
+			id: "00000000000007F5",
+			tasks: [{
+				id: "00000000000007F6",
+				type: "item",
+				item: "aquaculture:minnow_bucket"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 3.5d,
+			id: "00000000000007F9",
+			tasks: [{
+				id: "00000000000007FA",
+				type: "item",
+				item: "aquaculture:muskellunge_bucket"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 3.5d,
+			id: "00000000000007FD",
+			tasks: [{
+				id: "00000000000007FE",
+				type: "item",
+				item: "aquaculture:perch_bucket"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: -0.5d,
+			id: "00000000000007FF",
+			tasks: [{
+				id: "0000000000000800",
+				type: "item",
+				item: "aquaculture:piranha_bucket"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: 0.5d,
+			id: "0000000000000801",
+			tasks: [{
+				id: "0000000000000802",
+				type: "item",
+				item: "aquaculture:tambaqui_bucket"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: 1.5d,
+			id: "0000000000000805",
+			tasks: [{
+				id: "0000000000000806",
+				type: "item",
+				item: "aquaculture:brown_shrooma_bucket"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: 2.5d,
+			id: "0000000000000807",
+			tasks: [{
+				id: "0000000000000808",
+				type: "item",
+				item: "aquaculture:red_shrooma_bucket"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: 3.5d,
+			id: "0000000000000809",
+			tasks: [{
+				id: "000000000000080A",
+				type: "item",
+				item: "aquaculture:jellyfish_bucket"
+			}]
+		},
+		{
+			x: -17.0d,
+			y: 4.5d,
+			id: "000000000000080B",
+			tasks: [{
+				id: "000000000000080C",
+				type: "item",
+				item: "aquaculture:red_grouper_bucket"
+			}]
+		},
+		{
+			x: -16.0d,
+			y: 4.5d,
+			id: "000000000000080D",
+			tasks: [{
+				id: "000000000000080E",
+				type: "item",
+				item: "aquaculture:tuna_bucket"
+			}]
+		},
+		{
+			x: -19.0d,
+			y: -0.5d,
+			id: "000000000000080F",
+			tasks: [{
+				id: "0000000000000810",
+				type: "item",
+				item: "minecraft:pufferfish_bucket"
+			}]
+		},
+		{
+			x: -20.0d,
+			y: -0.5d,
+			id: "0000000000000811",
+			tasks: [{
+				id: "0000000000000812",
+				type: "item",
+				item: "minecraft:salmon_bucket"
+			}]
+		},
+		{
+			x: -20.0d,
+			y: 0.5d,
+			id: "0000000000000813",
+			tasks: [{
+				id: "0000000000000814",
+				type: "item",
+				item: "minecraft:cod_bucket"
+			}]
+		},
+		{
+			x: -19.0d,
+			y: 0.5d,
+			id: "0000000000000815",
+			tasks: [{
+				id: "0000000000000816",
+				type: "item",
+				item: "minecraft:tropical_fish_bucket"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.5d,
+			id: "000000000000081B",
+			tasks: [{
+				id: "000000000000081C",
+				type: "item",
+				item: "quark:slime_in_a_bucket"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -5.0d,
+			id: "0000000000000858",
+			tasks: [{
+				id: "0000000000000859",
+				type: "item",
+				item: {
+					id: "cnb:entity_net",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -5.0d,
+			id: "000000000000085A",
+			tasks: [{
+				id: "000000000000085B",
+				type: "item",
+				item: {
+					id: "cnb:lizard_item_0",
+					Count: 1b,
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -6.0d,
+			id: "000000000000085C",
+			tasks: [{
+				id: "000000000000085D",
+				type: "item",
+				item: {
+					id: "cnb:lizard_item_1",
+					Count: 1b,
+					tag: {
+						variant: 1
+					}
+				}
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -6.0d,
+			id: "000000000000085E",
+			tasks: [{
+				id: "000000000000085F",
+				type: "item",
+				item: {
+					id: "cnb:lizard_item_2",
+					Count: 1b,
+					tag: {
+						variant: 2
+					}
+				}
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -6.0d,
+			id: "0000000000000860",
+			tasks: [{
+				id: "0000000000000861",
+				type: "item",
+				item: {
+					id: "cnb:lizard_item_3",
+					Count: 1b,
+					tag: {
+						variant: 3
+					}
+				}
+			}]
+		},
+		{
+			x: -21.5d,
+			y: -0.5d,
+			dependencies: ["000000000000007F"],
+			id: "0000000000000862",
+			tasks: [{
+				id: "0000000000000863",
+				type: "item",
+				item: "betterendforge:bucket_end_fish"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 5.0d,
+			id: "000000000000086D",
+			tasks: [{
+				id: "0000000000000889",
+				type: "checkmark",
+				title: "The Addiction Starts"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 4.0d,
+			dependencies: ["000000000000086D"],
+			id: "000000000000086F",
+			tasks: [{
+				id: "0000000000000870",
+				type: "item",
+				item: "minecraft:brain_coral_fan"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 4.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000871",
+			tasks: [{
+				id: "0000000000000872",
+				type: "item",
+				item: "minecraft:bubble_coral_fan"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 5.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000873",
+			tasks: [{
+				id: "0000000000000874",
+				type: "item",
+				item: "minecraft:tube_coral"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 4.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000875",
+			tasks: [{
+				id: "0000000000000876",
+				type: "item",
+				item: "minecraft:brain_coral"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 5.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000877",
+			tasks: [{
+				id: "0000000000000878",
+				type: "item",
+				item: "minecraft:bubble_coral"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 6.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000879",
+			tasks: [{
+				id: "000000000000087A",
+				type: "item",
+				item: "minecraft:fire_coral"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 6.0d,
+			dependencies: ["000000000000086D"],
+			dependency_requirement: "all_started",
+			id: "000000000000087B",
+			tasks: [{
+				id: "000000000000087C",
+				type: "item",
+				item: "minecraft:horn_coral"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 6.0d,
+			dependencies: ["000000000000086D"],
+			id: "000000000000087D",
+			tasks: [{
+				id: "000000000000087E",
+				type: "item",
+				item: "minecraft:fire_coral_fan"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 4.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000881",
+			tasks: [{
+				id: "0000000000000882",
+				type: "item",
+				item: "minecraft:tube_coral_fan"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 5.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000883",
+			tasks: [{
+				id: "0000000000000884",
+				type: "item",
+				item: "minecraft:horn_coral_fan"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 6.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000885",
+			tasks: [{
+				id: "0000000000000886",
+				type: "item",
+				item: "minecraft:sea_pickle"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 5.0d,
+			dependencies: ["000000000000086D"],
+			id: "0000000000000887",
+			tasks: [{
+				id: "0000000000000888",
+				type: "item",
+				item: "minecraft:kelp"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.5d,
+			id: "293FEA30D84E8160",
+			tasks: [{
+				id: "74790450B3A1814B",
+				type: "item",
+				item: "endergetic:music_disc_kilobyte"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			id: "6A14C4D033358A35",
+			tasks: [{
+				id: "5E90ADC990CF0E42",
+				type: "item",
+				item: "biomesoplenty:music_disc_wanderer"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.5d,
+			id: "6A1B6F9C98792E4D",
+			tasks: [{
+				id: "62F11F849991551A",
+				type: "item",
+				item: "eidolon:music_disc_parousia"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.5d,
+			id: "2A9DCBEFDACBF27B",
+			tasks: [{
+				id: "35B33E4E79D6A4F1",
+				type: "item",
+				item: "theabyss:lost_id_01"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 1.5d,
+			id: "0D3315A533F99A00",
+			tasks: [{
+				id: "771B04D8861A4C1B",
+				type: "item",
+				item: {
+					id: "alexsmobs:blobfish_bucket",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 2.5d,
+			id: "34EFEBA13342C04A",
+			tasks: [{
+				id: "5C954C0E1A0BD44F",
+				type: "item",
+				item: "alexsmobs:lobster_bucket"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -6.0d,
+			id: "42F5CEFE370FD35B",
+			tasks: [{
+				id: "2ED90638F02EB74E",
+				type: "item",
+				item: "exoticbirds:peafowl_egg"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -6.0d,
+			id: "03566F20363C82D8",
+			tasks: [{
+				id: "334D944BE98236DC",
+				type: "item",
+				item: "exoticbirds:owl_egg"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -6.0d,
+			id: "0B39FF06FF0958CE",
+			tasks: [{
+				id: "19538DEA888A7A23",
+				type: "item",
+				item: "exoticbirds:booby_egg"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -6.0d,
+			id: "5A437DFB85D3CF47",
+			tasks: [{
+				id: "43D0BA4D0148F6DA",
+				type: "item",
+				item: "exoticbirds:flamingo_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -5.0d,
+			id: "2CB02FBEC883F79A",
+			tasks: [{
+				id: "12272E539E9958A3",
+				type: "item",
+				item: "exoticbirds:bluejay_egg"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -5.0d,
+			id: "120386AABE755EC1",
+			tasks: [{
+				id: "07B28277832BE499",
+				type: "item",
+				item: "exoticbirds:cardinal_egg"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -5.0d,
+			id: "1DB2440F930747DB",
+			tasks: [{
+				id: "2DB64C2C82488195",
+				type: "item",
+				item: "exoticbirds:robin_egg"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -5.0d,
+			id: "281AC243B7217450",
+			tasks: [{
+				id: "33F0A406A0A3F473",
+				type: "item",
+				item: "exoticbirds:crane_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -4.0d,
+			id: "284A552B48DE8170",
+			tasks: [{
+				id: "5D47335EE6047906",
+				type: "item",
+				item: "exoticbirds:heron_egg"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -4.0d,
+			id: "3FEB94FF527B0C14",
+			tasks: [{
+				id: "63CD5933ECAFDD0D",
+				type: "item",
+				item: "exoticbirds:lyrebird_egg"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.0d,
+			id: "238B8AA9E5BEF979",
+			tasks: [{
+				id: "0EA5DE9162095FD4",
+				type: "item",
+				item: "exoticbirds:kiwi_egg"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -4.0d,
+			id: "65C921A630DFCFF4",
+			tasks: [{
+				id: "02F79F18D1E62822",
+				type: "item",
+				item: "exoticbirds:toucan_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -3.0d,
+			id: "141A71A635956B7E",
+			tasks: [{
+				id: "0F588BD747D74578",
+				type: "item",
+				item: "exoticbirds:budgerigar_egg"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -3.0d,
+			id: "4D473A767C7A2A62",
+			tasks: [{
+				id: "50DCD1C74092FF02",
+				type: "item",
+				item: "exoticbirds:cassowary_egg"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -3.0d,
+			id: "51154E043F4FF678",
+			tasks: [{
+				id: "2D67BF79254B4855",
+				type: "item",
+				item: "exoticbirds:cockatoo_egg"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.0d,
+			id: "51D2B5EFCC67B97F",
+			tasks: [{
+				id: "6588FD09C952ACFD",
+				type: "item",
+				item: "exoticbirds:duck_egg"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -6.0d,
+			id: "2FE922A58F4787B4",
+			tasks: [{
+				id: "333251CDF8DA4CE9",
+				type: "item",
+				item: "exoticbirds:gouldianfinch_egg"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -5.0d,
+			id: "1E925A2FA827C40C",
+			tasks: [{
+				id: "1D147617B7DB3827",
+				type: "item",
+				item: "exoticbirds:gull_egg"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -4.0d,
+			id: "02EDB86D36B079CB",
+			tasks: [{
+				id: "3D4999AB65D4F384",
+				type: "item",
+				item: "exoticbirds:hummingbird_egg"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -3.0d,
+			id: "52CD028FE2C4967A",
+			tasks: [{
+				id: "6A38E54C74ADB774",
+				type: "item",
+				item: "exoticbirds:kingfisher_egg"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -3.0d,
+			id: "4970E1A5DFDC352D",
+			tasks: [{
+				id: "5D9E013D5B904DDE",
+				type: "item",
+				item: "exoticbirds:kookaburra_egg"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -4.0d,
+			id: "363046E539710955",
+			tasks: [{
+				id: "5444145E7E202C79",
+				type: "item",
+				item: "exoticbirds:magpie_egg"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -5.0d,
+			id: "270E2BBC7157CF83",
+			tasks: [{
+				id: "12F9B92455CF5DEB",
+				type: "item",
+				item: "exoticbirds:ostrich_egg"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -6.0d,
+			id: "5BBF04C0C90F6A2D",
+			tasks: [{
+				id: "6313D5F106AB16EE",
+				type: "item",
+				item: "exoticbirds:pelican_egg"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -6.0d,
+			id: "7D7FB334A4BE4A51",
+			tasks: [{
+				id: "6C4800B7028D64B5",
+				type: "item",
+				item: "exoticbirds:penguin_egg"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -5.0d,
+			id: "15F7CEB49C606C31",
+			tasks: [{
+				id: "1C0C9FE91FFA5D5B",
+				type: "item",
+				item: "exoticbirds:macaw_egg"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -4.0d,
+			id: "343A5B890C01189A",
+			tasks: [{
+				id: "2AED533DA7064982",
+				type: "item",
+				item: "exoticbirds:roadrunner_egg"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.0d,
+			id: "7B38108E5EB488CE",
+			tasks: [{
+				id: "0FF4936E2BC09CBA",
+				type: "item",
+				item: "exoticbirds:pigeon_egg"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -6.0d,
+			id: "3A09D89576F2683C",
+			tasks: [{
+				id: "4F37BC989CDFA10C",
+				type: "item",
+				item: "exoticbirds:swan_egg"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -5.0d,
+			id: "53B973A5E4823A92",
+			tasks: [{
+				id: "6D940A3CB745691F",
+				type: "item",
+				item: "exoticbirds:woodpecker_egg"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			id: "5226059E34DFC4FC",
+			tasks: [{
+				id: "1F5ED1DA4A097889",
+				type: "item",
+				item: "minecraft:egg"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -3.0d,
+			id: "014D06A1AA43616D",
+			tasks: [{
+				id: "3CDADFAB871B2A0C",
+				type: "item",
+				item: "cnb:little_grebe_spawn_egg"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -1.5d,
+			id: "164103284D7020FD",
+			tasks: [{
+				id: "0EE0182E9D4B6390",
+				type: "item",
+				item: "minecraft:turtle_egg"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -1.5d,
+			id: "6E8D4335F05460C0",
+			tasks: [{
+				id: "01CA7755571AB44E",
+				type: "item",
+				item: "alexsmobs:crocodile_egg"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -1.0d,
+			id: "20B42193D8372181",
+			tasks: [{
+				id: "17B79B745925D3F9",
+				type: "item",
+				item: "minecraft:dragon_head"
+			}]
+		}
+	]
+}

@@ -1,0 +1,642 @@
+{
+	id: "00000000000002E3",
+	group: "",
+	order_index: 6,
+	filename: "mining_progression",
+	title: "Skills progression",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Reach mining level 5",
+			x: -4.5d,
+			y: -1.0d,
+			id: "0000000000000318",
+			tasks: [{
+				id: "0000000000000319",
+				type: "custom",
+				title: "Unlock Stone pickaxe",
+				icon: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000040E",
+					type: "item",
+					item: {
+						id: "minecraft:stone_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000041B",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000463",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Reach mining level 12",
+			x: -4.5d,
+			y: 0.0d,
+			id: "000000000000031A",
+			tasks: [{
+				id: "000000000000031B",
+				type: "custom",
+				title: "Unlock Iron pickaxe",
+				icon: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000040F",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				},
+				{
+					id: "0000000000000410",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			title: "Reach mining level 40",
+			x: -4.5d,
+			y: 2.0d,
+			id: "000000000000031E",
+			tasks: [{
+				id: "000000000000031F",
+				type: "custom",
+				title: "Unlock Diamond pickaxe",
+				icon: {
+					id: "minecraft:diamond_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000413",
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: "000000000000044E",
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach mining level 60",
+			x: -4.5d,
+			y: 3.0d,
+			id: "0000000000000320",
+			tasks: [{
+				id: "0000000000000321",
+				type: "custom",
+				title: "Unlock Netherite pickaxe",
+				icon: {
+					id: "minecraft:netherite_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000414",
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: "000000000000044B",
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach mining level 20",
+			x: -4.5d,
+			y: 1.0d,
+			id: "0000000000000322",
+			tasks: [{
+				id: "0000000000000323",
+				type: "custom",
+				title: "Unlock steel pickaxe"
+			}],
+			rewards: [
+				{
+					id: "0000000000000411",
+					type: "xp_levels",
+					xp_levels: 10
+				},
+				{
+					id: "0000000000000560",
+					type: "random",
+					table_id: 1355L
+				}
+			]
+		},
+		{
+			title: "Reach combat level 10",
+			x: -3.0d,
+			y: -1.0d,
+			id: "00000000000003BA",
+			tasks: [{
+				id: "00000000000003BB",
+				type: "custom",
+				title: "Unlock Stone sword",
+				icon: {
+					id: "minecraft:stone_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "000000000000041A",
+					type: "item",
+					item: {
+						id: "minecraft:stone_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "000000000000041C",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "0000000000000464",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 10",
+			x: -3.0d,
+			y: 0.0d,
+			id: "00000000000003BC",
+			tasks: [{
+				id: "00000000000003BD",
+				type: "custom",
+				title: "Unlock Iron sword",
+				icon: {
+					id: "minecraft:iron_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000418",
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: "0000000000000419",
+					type: "item",
+					item: "minecraft:iron_ingot",
+					random_bonus: 3
+				},
+				{
+					id: "00000000000005C8",
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 40",
+			x: -3.0d,
+			y: 2.0d,
+			id: "00000000000003BE",
+			tasks: [{
+				id: "00000000000003BF",
+				type: "custom",
+				title: "Unlock Diamond sword",
+				icon: {
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000416",
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: "000000000000044D",
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 60",
+			x: -3.0d,
+			y: 3.0d,
+			id: "00000000000003C0",
+			tasks: [{
+				id: "00000000000003C1",
+				type: "custom",
+				title: "Unlock Netherite sword",
+				icon: {
+					id: "minecraft:netherite_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0000000000000415",
+					type: "xp_levels",
+					xp_levels: 20
+				},
+				{
+					id: "000000000000044C",
+					type: "item",
+					item: "spareparts:coins/diamond_coin"
+				}
+			]
+		},
+		{
+			title: "Reach combat level 30",
+			x: -3.0d,
+			y: 1.0d,
+			id: "00000000000003CA",
+			tasks: [{
+				id: "00000000000003CB",
+				type: "custom",
+				title: "Unlock Steel sword"
+			}],
+			rewards: [{
+				id: "0000000000000417",
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			title: "Reach woodcutting level 10",
+			icon: {
+				id: "minecraft:iron_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 0.0d,
+			id: "00000000000004F4",
+			tasks: [{
+				id: "00000000000004F5",
+				type: "custom",
+				title: "Unlock iron axe",
+				icon: {
+					id: "minecraft:iron_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "00000000000005C9",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			title: "Reach woodcutting level 20",
+			x: -1.5d,
+			y: 1.0d,
+			id: "00000000000004F6",
+			tasks: [{
+				id: "00000000000004F7",
+				type: "custom",
+				title: "Unlock steel axe"
+			}]
+		},
+		{
+			title: "Reach woodcutting level 40",
+			icon: {
+				id: "minecraft:diamond_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 2.0d,
+			id: "00000000000004F8",
+			tasks: [{
+				id: "00000000000004F9",
+				type: "custom",
+				title: "Unlock diamond axe",
+				icon: {
+					id: "minecraft:diamond_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach woodcutting level 60",
+			icon: {
+				id: "minecraft:netherite_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: 3.0d,
+			id: "00000000000004FA",
+			tasks: [{
+				id: "00000000000004FB",
+				type: "custom",
+				title: "Unlock netherite axe",
+				icon: {
+					id: "minecraft:netherite_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach woodcutting level 3",
+			icon: {
+				id: "minecraft:stone_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -1.5d,
+			y: -1.0d,
+			id: "00000000000004FC",
+			tasks: [{
+				id: "00000000000004FD",
+				type: "custom",
+				title: "Unlock stone axe",
+				icon: {
+					id: "minecraft:stone_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 5",
+			x: 0.0d,
+			y: -1.0d,
+			id: "0000000000000696",
+			tasks: [{
+				id: "0000000000000697",
+				type: "custom",
+				title: "Unlock leather armor",
+				icon: {
+					id: "minecraft:leather_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 10",
+			x: 0.0d,
+			y: 0.0d,
+			id: "0000000000000698",
+			tasks: [{
+				id: "0000000000000699",
+				type: "custom",
+				title: "Unlock iron armor",
+				icon: {
+					id: "minecraft:iron_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 15",
+			x: 0.0d,
+			y: 1.0d,
+			id: "000000000000069A",
+			tasks: [{
+				id: "000000000000069B",
+				type: "custom",
+				title: "Unlock chainmail armor",
+				icon: {
+					id: "minecraft:chainmail_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 20",
+			x: 0.0d,
+			y: 2.0d,
+			id: "000000000000069C",
+			tasks: [{
+				id: "000000000000069D",
+				type: "custom",
+				title: "Unlock steel armor"
+			}]
+		},
+		{
+			title: "Reach endurance level 40",
+			x: 0.0d,
+			y: 3.0d,
+			id: "000000000000069E",
+			tasks: [{
+				id: "000000000000069F",
+				type: "custom",
+				title: "Unlock diamond armor",
+				icon: {
+					id: "minecraft:diamond_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Reach endurance level 60",
+			x: 0.0d,
+			y: 4.0d,
+			id: "00000000000006A0",
+			tasks: [{
+				id: "00000000000006A1",
+				type: "custom",
+				title: "Unlock netherite armor",
+				icon: {
+					id: "minecraft:netherite_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			id: "44F66CB736C7EDC6",
+			tasks: [
+				{
+					id: "4C2BAE35C7538D6D",
+					type: "item",
+					item: {
+						id: "eidolon:warlock_hat",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "39E90328AA2DFA8E",
+					type: "item",
+					item: {
+						id: "eidolon:warlock_cloak",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "712E7B469B772912",
+					type: "item",
+					item: {
+						id: "eidolon:warlock_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -2.0d,
+			id: "778D61EC9ACBFE0E",
+			tasks: [{
+				id: "7348C744FC00E086",
+				type: "item",
+				item: {
+					id: "eidolon:top_hat",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			id: "3F145C1100B1CF6A",
+			tasks: [
+				{
+					id: "598C96E17C88D74F",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5333A0B2BA0E9930",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "07BBD39DBE04543E",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5D39DCE10C0D8329",
+					type: "item",
+					item: {
+						id: "minecraft:diamond_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

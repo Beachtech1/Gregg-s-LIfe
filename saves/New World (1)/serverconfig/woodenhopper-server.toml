@@ -1,0 +1,7 @@
+
+#Options that affect the added Wooden Hopper.
+["Wooden Hopper Settings"]
+	#Time (ticks) that passes between two wooden hopper operations. (default: 16 ticks) (vanilla hopper: 8 ticks)
+	#Range: 1 ~ 1000
+	woodenHopperCooldown = 16
+

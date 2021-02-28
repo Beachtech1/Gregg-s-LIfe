@@ -1,0 +1,119 @@
+{
+	id: "0000000000000826",
+	group: "",
+	order_index: 1,
+	filename: "iron_age",
+	title: "Iron Age",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Iron Age",
+			x: -7.0d,
+			y: 0.0d,
+			id: "000000000000088A",
+			tasks: [{
+				id: "000000000000088B",
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 64L
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 2.0d,
+			dependencies: ["000000000000088A"],
+			id: "000000000000088C",
+			tasks: [{
+				id: "000000000000088D",
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 2.0d,
+			dependencies: ["000000000000088C"],
+			id: "000000000000088E",
+			tasks: [{
+				id: "000000000000088F",
+				type: "item",
+				item: "minecraft:diamond"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: ["000000000000088E"],
+			id: "0000000000000890",
+			tasks: [{
+				id: "0000000000000891",
+				type: "item",
+				item: {
+					id: "minecraft:diamond_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 2.0d,
+			id: "0000000000000892",
+			tasks: [{
+				id: "0000000000000893",
+				type: "item",
+				item: "minecraft:redstone"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 0.0d,
+			id: "0000000000000896",
+			tasks: [{
+				id: "0000000000000897",
+				type: "item",
+				item: {
+					id: "notreepunching:iron_saw",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			id: "0000000000000898",
+			tasks: [{
+				id: "0000000000000899",
+				type: "item",
+				item: {
+					id: "notreepunching:iron_mattock",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			id: "000000000000089A",
+			tasks: [{
+				id: "000000000000089B",
+				type: "item",
+				item: "minecraft:obsidian"
+			}]
+		}
+	]
+}

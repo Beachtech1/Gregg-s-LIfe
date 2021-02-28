@@ -1,0 +1,489 @@
+{
+	id: "00000000000002E6",
+	group: "",
+	order_index: 7,
+	filename: "statistic",
+	title: "Statistics",
+	icon: "minecraft:writable_book",
+	default_quest_shape: "",
+	quests: [
+		{
+			icon: {
+				id: "minecraft:stone_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.0d,
+			y: -4.0d,
+			id: "00000000000002EB",
+			tasks: [{
+				id: "00000000000002EC",
+				type: "stat",
+				title: "Kill 20 mobs",
+				stat: "minecraft:mob_kills",
+				value: 20
+			}],
+			rewards: [{
+				id: "00000000000004F3",
+				type: "item",
+				item: {
+					id: "minecraft:shield",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "First blood",
+			icon: "minecraft:skeleton_skull",
+			x: -5.5d,
+			y: -4.0d,
+			id: "00000000000002EF",
+			tasks: [{
+				id: "00000000000002F0",
+				type: "stat",
+				icon: "minecraft:skeleton_skull",
+				stat: "minecraft:deaths",
+				value: 1
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -3.0d,
+			dependencies: ["00000000000002EB"],
+			id: "00000000000002F1",
+			tasks: [{
+				id: "00000000000002F2",
+				type: "stat",
+				title: "Kill 100 mobs",
+				stat: "minecraft:mob_kills",
+				value: 100
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:golden_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.0d,
+			y: -2.0d,
+			dependencies: ["00000000000002F1"],
+			id: "00000000000002F3",
+			tasks: [{
+				id: "00000000000002F4",
+				type: "stat",
+				title: "Kill 250 mobs",
+				stat: "minecraft:mob_kills",
+				value: 250
+			}],
+			rewards: [{
+				id: "0000000000000449",
+				type: "item",
+				item: "spareparts:coins/diamond_coin"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -3.0d,
+			dependencies: ["00000000000002EF"],
+			id: "00000000000002F5",
+			tasks: [{
+				id: "00000000000002F6",
+				type: "stat",
+				title: "Die 10 times",
+				icon: "minecraft:skeleton_skull",
+				stat: "minecraft:deaths",
+				value: 10
+			}],
+			rewards: [{
+				id: "00000000000005CA",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -2.0d,
+			dependencies: ["00000000000002F5"],
+			id: "00000000000002F7",
+			tasks: [{
+				id: "00000000000002F8",
+				type: "stat",
+				title: "Die 30 times",
+				icon: "minecraft:skeleton_skull",
+				stat: "minecraft:deaths",
+				value: 30
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.0d,
+			id: "00000000000002F9",
+			tasks: [{
+				id: "00000000000002FA",
+				type: "stat",
+				icon: {
+					id: "minecraft:leather_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_one_cm",
+				value: 500000
+			}],
+			rewards: [
+				{
+					id: "0000000000000353",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					},
+					count: 2
+				},
+				{
+					id: "0000000000000354",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					},
+					count: 5
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -3.0d,
+			dependencies: ["00000000000002F9"],
+			id: "00000000000002FB",
+			tasks: [{
+				id: "00000000000002FC",
+				type: "stat",
+				icon: {
+					id: "minecraft:iron_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_one_cm",
+				value: 1500000
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.0d,
+			dependencies: ["00000000000002FB"],
+			id: "00000000000002FD",
+			tasks: [{
+				id: "00000000000002FE",
+				type: "stat",
+				icon: {
+					id: "minecraft:golden_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_one_cm",
+				value: 3500000
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -1.0d,
+			dependencies: ["00000000000002FD"],
+			id: "0000000000000301",
+			tasks: [{
+				id: "0000000000000302",
+				type: "stat",
+				icon: {
+					id: "minecraft:diamond_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_one_cm",
+				value: 7000000
+			}],
+			rewards: [{
+				id: "0000000000000352",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.0d,
+			dependencies: ["0000000000000301"],
+			id: "0000000000000303",
+			tasks: [{
+				id: "0000000000000304",
+				type: "stat",
+				icon: {
+					id: "minecraft:netherite_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_one_cm",
+				value: 15000000
+			}],
+			rewards: [{
+				id: "7544E1FD2C9B487A",
+				type: "item",
+				item: "coins:coin_diamond"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -4.0d,
+			id: "0000000000000308",
+			tasks: [{
+				id: "0000000000000309",
+				type: "stat",
+				stat: "minecraft:leave_game",
+				value: 1
+			}],
+			rewards: [{
+				id: "00000000000004A7",
+				type: "item",
+				item: "minecraft:cookie"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.0d,
+			dependencies: ["0000000000000308"],
+			id: "000000000000030A",
+			tasks: [{
+				id: "000000000000030B",
+				type: "stat",
+				stat: "minecraft:leave_game",
+				value: 10
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -2.0d,
+			dependencies: ["000000000000030A"],
+			id: "000000000000030C",
+			tasks: [{
+				id: "000000000000030D",
+				type: "stat",
+				stat: "minecraft:leave_game",
+				value: 50
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -1.0d,
+			dependencies: ["000000000000030C"],
+			id: "000000000000030E",
+			tasks: [{
+				id: "000000000000030F",
+				type: "stat",
+				stat: "minecraft:leave_game",
+				value: 100
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: ["000000000000030E"],
+			id: "0000000000000310",
+			tasks: [{
+				id: "0000000000000311",
+				type: "stat",
+				stat: "minecraft:leave_game",
+				value: 250
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.0d,
+			id: "0000000000000312",
+			tasks: [{
+				id: "0000000000000313",
+				type: "stat",
+				title: "Piece of cake!",
+				icon: "minecraft:cake",
+				stat: "minecraft:eat_cake_slice",
+				value: 152
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.0d,
+			id: "0000000000000314",
+			tasks: [{
+				id: "0000000000000315",
+				type: "stat",
+				icon: "supplementaries:piston_launcher",
+				stat: "minecraft:jump",
+				value: 1024
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			id: "0000000000000316",
+			tasks: [{
+				id: "0000000000000317",
+				type: "stat",
+				title: "Fishy business",
+				icon: "minecraft:pufferfish",
+				stat: "minecraft:fish_caught",
+				value: 376
+			}]
+		},
+		{
+			title: "Now your diying like Gregg",
+			x: -5.5d,
+			y: -1.0d,
+			dependencies: ["00000000000002F7"],
+			id: "00000000000003C2",
+			tasks: [{
+				id: "00000000000003C3",
+				type: "stat",
+				title: "Die 50 times",
+				icon: "minecraft:wither_skeleton_skull",
+				stat: "minecraft:deaths",
+				value: 50
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 0.0d,
+			dependencies: ["00000000000003C2"],
+			id: "00000000000006A2",
+			tasks: [{
+				id: "00000000000006A3",
+				type: "stat",
+				title: "Too hard for you maybe?",
+				icon: "minecraft:wither_skeleton_skull",
+				stat: "minecraft:deaths",
+				value: 200
+			}],
+			rewards: [{
+				id: "000000000000083B",
+				type: "item",
+				item: "minecraft:totem_of_undying"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -1.0d,
+			dependencies: ["00000000000002F3"],
+			id: "00000000000006A4",
+			tasks: [{
+				id: "00000000000006A5",
+				type: "stat",
+				title: "Kill 500 mobs",
+				icon: {
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:mob_kills",
+				value: 500
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 0.0d,
+			dependencies: ["00000000000006A4"],
+			id: "00000000000006A6",
+			tasks: [{
+				id: "00000000000006A7",
+				type: "stat",
+				title: "Kill 1000 mobs",
+				icon: {
+					id: "minecraft:netherite_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:mob_kills",
+				value: 1000
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			id: "00000000000006A8",
+			tasks: [{
+				id: "00000000000006A9",
+				type: "stat",
+				icon: {
+					id: "minecraft:shield",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:damage_blocked_by_shield",
+				value: 100000
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			id: "00000000000006AA",
+			tasks: [{
+				id: "00000000000006AB",
+				type: "stat",
+				icon: {
+					id: "minecraft:carrot_on_a_stick",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:pig_one_cm",
+				value: 1000000
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.0d,
+			id: "00000000000006AC",
+			tasks: [{
+				id: "00000000000006AD",
+				type: "stat",
+				icon: "minecraft:feather",
+				stat: "minecraft:fall_one_cm",
+				value: 1000000
+			}]
+		}
+	]
+}

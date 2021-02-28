@@ -1,0 +1,43 @@
+{
+	id: "000000000000054B",
+	order_index: 1,
+	title: "Random ingot/material",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:nether_brick"
+		},
+		{
+			item: "minecraft:quartz"
+		},
+		{},
+		{},
+		{
+			item: "randomite:randomite_ore"
+		},
+		{
+			item: "minecraft:diamond"
+		},
+		{
+			item: "minecraft:redstone"
+		},
+		{
+			item: "minecraft:gold_ingot"
+		},
+		{
+			item: "minecraft:iron_ingot"
+		},
+		{
+			item: "minecraft:coal"
+		},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	]
+}

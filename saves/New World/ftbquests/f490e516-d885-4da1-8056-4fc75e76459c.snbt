@@ -1,0 +1,16 @@
+{
+	uuid: "f490e516-d885-4da1-8056-4fc75e76459c",
+	name: "BeachTech",
+	can_edit: false,
+	money: 0L,
+	auto_pin: false,
+	task_progress: {
+		0000000000000118: 1,
+		00000000000002FA: 42724,
+		0000000000000309: 1,
+		000000000000030B: 1,
+		0000000000000315: 167
+	},
+	claimed_rewards: [],
+	pinned_quests: []
+}

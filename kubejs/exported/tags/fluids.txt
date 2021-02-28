@@ -1,0 +1,45 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 26, 2021 12:23:48 AM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- theabyss:dragonfluid
+- theabyss:dragonfluid_flowing
+
+#ceramics:hot_fluids
+
+#ceramics:cool_fluids
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- theabyss:abyssdimwater
+- theabyss:abyssdimwater_flowing
+- theabyss:backtolive
+- theabyss:backtolive_flowing
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:milk
+- create:flowing_milk
+- create:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
+
+#forge:honey
+- create:flowing_honey
+- create:honey

@@ -1,0 +1,608 @@
+{
+	id: "0000000000000778",
+	group: "",
+	order_index: 2,
+	filename: "create_something_new",
+	title: "Thinking with Grears",
+	icon: "create:large_cogwheel",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "The MC Grind",
+			icon: "create:crushing_wheel",
+			x: 4.0d,
+			y: -1.5d,
+			hide: false,
+			id: "0000000000000780",
+			tasks: [
+				{
+					id: "0000000000000781",
+					type: "item",
+					title: "MC Grind",
+					item: "create:crushing_wheel",
+					count: 2L
+				},
+				{
+					id: "24FC0AF29CA2642E",
+					type: "item",
+					item: "create:gearbox"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			dependencies: ["0000000000000788"],
+			id: "0000000000000784",
+			tasks: [{
+				id: "0000000000000785",
+				type: "item",
+				item: "create:cogwheel"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			dependencies: ["0000000000000788"],
+			dependency_requirement: "all_started",
+			id: "0000000000000786",
+			tasks: [{
+				id: "0000000000000787",
+				type: "item",
+				item: "create:large_cogwheel"
+			}]
+		},
+		{
+			title: "Becomeing A Gregg",
+			x: -2.5d,
+			y: 0.5d,
+			dependency_requirement: "one_completed",
+			id: "0000000000000788",
+			tasks: [{
+				id: "0000000000000789",
+				type: "item",
+				item: "create:shaft"
+			}]
+		},
+		{
+			title: "Water Power",
+			x: -4.5d,
+			y: 1.5d,
+			id: "000000000000078A",
+			tasks: [{
+				id: "000000000000078B",
+				type: "item",
+				item: "create:water_wheel"
+			}]
+		},
+		{
+			title: "Smelting",
+			x: 5.0d,
+			y: -2.0d,
+			dependencies: ["0000000000000780"],
+			id: "000000000000078C",
+			tasks: [
+				{
+					id: "000000000000078D",
+					type: "item",
+					item: "create:encased_fan"
+				},
+				{
+					id: "0000000000000822",
+					type: "item",
+					item: {
+						id: "notreepunching:ceramic_bucket",
+						Count: 1b,
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:flowing_lava",
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Fan Washing",
+			x: 5.0d,
+			y: -0.5d,
+			dependencies: ["0000000000000780"],
+			id: "000000000000078E",
+			tasks: [
+				{
+					id: "000000000000078F",
+					type: "item",
+					item: "create:encased_fan"
+				},
+				{
+					id: "0000000000000823",
+					type: "item",
+					item: {
+						id: "notreepunching:ceramic_bucket",
+						Count: 1b,
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:flowing_water",
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 13.0d,
+			y: 0.5d,
+			dependencies: ["6977927FA581818C"],
+			id: "7985A7AD50D784DE",
+			tasks: [{
+				id: "11479F0ACEE75801",
+				type: "item",
+				item: {
+					id: "create:wand_of_symmetry",
+					Count: 1b,
+					tag: {
+						symmetry: {
+							type: "cross_plane",
+							pos: [
+								-244.0f,
+								4.0f,
+								1125.0f
+							],
+							enable: 1b,
+							direction: 1
+						},
+						enable: 1b
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -6.5d,
+			dependencies: ["7F17DEDF1EF8DCAA"],
+			id: "10938E7D0DC6E77D",
+			tasks: [{
+				id: "26E853FE4095688D",
+				type: "item",
+				item: "create:blaze_burner"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -0.5d,
+			dependencies: ["52EC2C14640B8FEC"],
+			id: "19CD24644E148ED8",
+			tasks: [{
+				id: "17A1347AB10B4CE8",
+				type: "item",
+				item: "create:mechanical_harvester"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: "680E7C49D6AF10F9",
+			tasks: [{
+				id: "710C63662DCA074F",
+				type: "item",
+				item: "create:mechanical_saw"
+			}]
+		},
+		{
+			title: "Wind Power",
+			x: -1.5d,
+			y: 1.5d,
+			id: "00AB03C352237760",
+			tasks: [{
+				id: "6962589CF08B97BF",
+				type: "item",
+				item: "create:windmill_bearing"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -2.5d,
+			id: "52EC2C14640B8FEC",
+			tasks: [{
+				id: "0E457FD564823AFF",
+				type: "item",
+				item: "create:mechanical_press"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			id: "7F17DEDF1EF8DCAA",
+			tasks: [{
+				id: "0554C1B24D35310A",
+				type: "item",
+				item: "create:mechanical_mixer"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.0d,
+			dependencies: ["0A7237A94DCACC74"],
+			id: "001211893B1398EA",
+			tasks: [{
+				id: "2DAF47D13365FE5F",
+				type: "item",
+				item: {
+					id: "create:chromatic_compound",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -2.0d,
+			dependencies: [
+				"505F607A72DF1416",
+				"10938E7D0DC6E77D"
+			],
+			id: "0A7237A94DCACC74",
+			tasks: [{
+				id: "3923DA4104A855F7",
+				type: "item",
+				item: "create:polished_rose_quartz"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			dependencies: ["551F69396E92C60B"],
+			id: "505F607A72DF1416",
+			tasks: [{
+				id: "409B3DB0BCC7DFEF",
+				type: "item",
+				item: "create:blaze_cake"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -2.0d,
+			dependencies: ["31BC9720D812E8FB"],
+			id: "551F69396E92C60B",
+			tasks: [{
+				id: "56D935614D629AF0",
+				type: "item",
+				item: "create:spout"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.5d,
+			dependencies: ["001211893B1398EA"],
+			id: "6977927FA581818C",
+			tasks: [{
+				id: "2BF1827F84F63E60",
+				type: "item",
+				item: "create:refined_radiance"
+			}]
+		},
+		{
+			title: "Brass Age",
+			x: 2.0d,
+			y: -5.0d,
+			dependencies: [
+				"10938E7D0DC6E77D",
+				"7F17DEDF1EF8DCAA"
+			],
+			id: "63AD0717C5C3167A",
+			tasks: [{
+				id: "056002BA4E3DECB5",
+				type: "item",
+				item: "create:brass_ingot",
+				count: 64L
+			}]
+		},
+		{
+			title: "Fan Power",
+			x: 0.0d,
+			y: -3.0d,
+			id: "3C7BAA4B5728BE88",
+			tasks: [{
+				id: "66DE3ABFE705C2CB",
+				type: "item",
+				item: "create:encased_fan"
+			}]
+		},
+		{
+			title: "Mechmcanl Power",
+			x: 0.0d,
+			y: -7.0d,
+			dependencies: ["3CB4EB71FD0586B4"],
+			id: "2D6DE9560C2867B3",
+			tasks: [
+				{
+					id: "4488246E89FC297B",
+					type: "item",
+					item: "create:flywheel"
+				},
+				{
+					id: "5901754F5FDDE640",
+					type: "item",
+					item: "create:furnace_engine"
+				},
+				{
+					id: "4243BA13781D924C",
+					type: "item",
+					item: "minecraft:blast_furnace"
+				}
+			]
+		},
+		{
+			title: "Copper Age",
+			x: 3.5d,
+			y: -4.0d,
+			id: "13A073444DA540E2",
+			tasks: [{
+				id: "01C5D450E62E1E87",
+				type: "item",
+				item: "create:copper_ingot",
+				count: 64L
+			}]
+		},
+		{
+			icon: "theabyss:fireplantx",
+			x: -0.5d,
+			y: -3.75d,
+			dependencies: ["3C7BAA4B5728BE88"],
+			size: 0.5d,
+			id: "1248407519DD680A",
+			tasks: [{
+				id: "64F7ECA88C81326A",
+				type: "checkmark",
+				title: "Fire Power"
+			}]
+		},
+		{
+			icon: "minecraft:lava_bucket",
+			x: 0.0d,
+			y: -3.75d,
+			dependencies: ["3C7BAA4B5728BE88"],
+			size: 0.5d,
+			id: "1AB0B0401123FEA1",
+			tasks: [{
+				id: "542CE6FE9D38BA9D",
+				type: "checkmark",
+				title: "Lava Power"
+			}]
+		},
+		{
+			icon: "minecraft:magma_block",
+			disable_toast: true,
+			x: 0.5d,
+			y: -3.75d,
+			dependencies: ["3C7BAA4B5728BE88"],
+			size: 0.5d,
+			id: "534A9F1AAE69F73E",
+			tasks: [{
+				id: "27D0537B2527E7CD",
+				type: "checkmark",
+				title: "Magma Power"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -3.5d,
+			id: "5C7FCA9001D5186D",
+			tasks: [{
+				id: "6B1691A92FB73CEC",
+				type: "item",
+				item: "create:basin"
+			}]
+		},
+		{
+			title: "Iron Age",
+			x: -4.5d,
+			y: -1.5d,
+			dependency_requirement: "all_started",
+			id: "135B2460AA4DBB0A",
+			tasks: [{
+				id: "0BCCB1538D2DC943",
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 64L
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -0.5d,
+			id: "043F4C0E3C06662E",
+			tasks: [{
+				id: "4F202B42CAEC601E",
+				type: "item",
+				item: {
+					id: "create:handheld_blockzapper",
+					Count: 1b,
+					tag: {
+						Replace: 0b,
+						Pattern: "Solid",
+						Retriever: "None",
+						Scope: "None",
+						SearchDiagonal: 0b,
+						Amplifier: "None",
+						Body: "None",
+						SearchMaterial: 0b,
+						SearchDistance: 1,
+						Accelerator: "None"
+					}
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: -8.0d,
+			id: "43F7A9E7CADB8636",
+			tasks: [{
+				id: "37B6457D2AEFDF18",
+				type: "item",
+				item: "create:goggles"
+			}]
+		},
+		{
+			title: "Thinking With Belts",
+			x: 5.0d,
+			y: -9.0d,
+			id: "25B075F47406E98E",
+			tasks: [{
+				id: "3FCD223BE37C46A8",
+				type: "item",
+				item: "create:belt_connector"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -10.0d,
+			dependencies: ["25B075F47406E98E"],
+			id: "56D38F755BE4A0DE",
+			tasks: [{
+				id: "153D326A90FD394B",
+				type: "item",
+				item: "create:andesite_funnel"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -10.0d,
+			dependencies: ["25B075F47406E98E"],
+			id: "048DAEE6289B1884",
+			tasks: [{
+				id: "1E341001AA72D7B4",
+				type: "item",
+				item: "create:andesite_tunnel"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -8.0d,
+			dependencies: [
+				"25B075F47406E98E",
+				"63AD0717C5C3167A"
+			],
+			id: "420CDB73B38A9EF2",
+			tasks: [{
+				id: "67EB4EAE0B113BCD",
+				type: "item",
+				item: "create:brass_tunnel"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -8.0d,
+			dependencies: [
+				"25B075F47406E98E",
+				"63AD0717C5C3167A"
+			],
+			id: "3A078E93877020B0",
+			tasks: [{
+				id: "456A038D97BFD06A",
+				type: "item",
+				item: "create:brass_funnel"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -7.0d,
+			dependencies: ["7BF30BF9F0A8717F"],
+			id: "3CB4EB71FD0586B4",
+			tasks: [{
+				id: "17D2524436E94F5F",
+				type: "item",
+				item: "create:mechanical_crafter",
+				count: 9L
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -6.0d,
+			id: "30278E882AA7789F",
+			tasks: [{
+				id: "0B714B5D8167B8C4",
+				type: "item",
+				item: "create:zinc_ingot"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.25d,
+			dependencies: ["00AB03C352237760"],
+			size: 0.5d,
+			id: "7824945A142D7EF7",
+			tasks: [{
+				id: "48B9FA358239CC08",
+				type: "item",
+				item: "create:white_sail"
+			}]
+		},
+		{
+			title: "Hand Power",
+			x: 0.0d,
+			y: -9.0d,
+			id: "772975519AD9A2E4",
+			tasks: [{
+				id: "2C27C64EC1F8325F",
+				type: "item",
+				item: "create:hand_crank"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			id: "4A7AE84D8A3B5C56",
+			tasks: [{
+				id: "47002F7A7C32B025",
+				type: "item",
+				item: "create:andesite_alloy"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			id: "7282EAD4F6BAB119",
+			tasks: [{
+				id: "6AB88672374C799F",
+				type: "item",
+				item: "create:andesite_casing"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -5.0d,
+			id: "7BF30BF9F0A8717F",
+			tasks: [{
+				id: "7DE4C17A8EC10E28",
+				type: "item",
+				item: "create:brass_casing"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -4.0d,
+			dependencies: [
+				"13A073444DA540E2",
+				"52EC2C14640B8FEC"
+			],
+			id: "31BC9720D812E8FB",
+			tasks: [{
+				id: "134571ADFDD30E54",
+				type: "item",
+				item: "create:copper_casing"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			id: "61E6519699963465",
+			tasks: [{
+				id: "14009ECBA1CB5F39",
+				type: "item",
+				item: "create:mechanical_bearing"
+			}]
+		}
+	]
+}
